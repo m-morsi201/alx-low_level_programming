@@ -4,9 +4,9 @@
 /**
  * main is the start point
  *
- * description : zero, positive or negative
+ * description: zero, positive or negative
  *
- * return =0 (the program is succes)
+ * return : 0 (success)
 */
 int main(void)
 {

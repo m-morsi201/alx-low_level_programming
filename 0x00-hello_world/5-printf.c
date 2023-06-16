@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main(void)
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
 */
+
 {
 	print("with proper grammar, but the outcome is a piece of art,\n");
-	return(0);
+	return (0);
 }

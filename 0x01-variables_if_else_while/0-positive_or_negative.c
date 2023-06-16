@@ -1,13 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main is the start point
  *
- * description: zero, positive or negative
+ * description: zero, positive or negative program 
  *
- * return : 0 (success)
+ * return: 0 (success)
 */
+
 int main(void)
 {
 	int n;

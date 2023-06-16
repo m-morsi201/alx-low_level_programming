@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main is the start point
+ * main - entry point
  *
- * description: zero, positive or negative program 
+ * Description:  positive or negative
  *
- * return: 0 (success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)

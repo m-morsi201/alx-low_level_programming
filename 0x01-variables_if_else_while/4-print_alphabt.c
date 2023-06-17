@@ -15,6 +15,8 @@ int main(void)
 	while (aph <= 'z')
 	{
 		if (aph == 'e' || aph == 'q')
+			aph++;
+		else
 		putchar(aph);
 		aph++;
 	}

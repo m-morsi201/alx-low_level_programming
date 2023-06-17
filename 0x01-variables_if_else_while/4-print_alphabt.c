@@ -16,7 +16,6 @@ int main(void)
 	{
 		if (aph == 'e' || aph == 'q')
 			aph++;
-		else
 		putchar(aph);
 		aph++;
 	}

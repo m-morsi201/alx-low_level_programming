@@ -5,6 +5,8 @@
  *
  * Description: prints the alphabet, in lowercase, followed by a new line.
  *
+ * function print_alphabet well print alpabet 
+ *
  * Return: Always 0 (Success)
 */
 

@@ -9,8 +9,8 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int s
-		s = -1;
+	int s = -1;
+
 	do {
 		s++;
 		dest[s] = scr[s];

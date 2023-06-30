@@ -11,16 +11,21 @@ char *leet(char *m)
 	char *cp = m;
 	char key[] = {'A', 'E', 'O', 'T', 'L'};
 	int value[] = {4, 3, 0, 7, 1};
-	unsigned int r;
+	unsigned int i;
 
 	while (*m)
 	{
-		for (r = 0; r < sizeof(key) / sizeof(char); r++)
+		for (i = 0; i < sizeof(key) / sizeof(char); i++)
 		{
-			if (*m == key[r] || *m == key[r] + 32)
+
+			if (*m == key[i] || *m == key[i] + 32)
 			{
-				*m = 48 + value[r];
+				*m = 48 + value[i];
 			}
-			m++;
 		}
-		return (cp);
+
+	m++;
+	}
+
+	return (cp);
+}

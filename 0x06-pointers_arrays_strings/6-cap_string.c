@@ -14,7 +14,7 @@ int isLower(char m)
 }
 
 /**
- * isDelimter - is determines whether ascii is determines.
+ * isDelimiter - is determines whether ascii is determines.
  * @m: is char.
  * Return: 1 if true 0 if else.
 */

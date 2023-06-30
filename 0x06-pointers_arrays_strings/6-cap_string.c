@@ -19,7 +19,7 @@ int isLower(char m)
  * Return: 1 if true 0 if else.
 */
 
-int isDelimter(char m)
+int isDelimiter(char m)
 {
 	int r;
 	char delimiter[] = " \t\n,.!?\"(){}";
@@ -38,7 +38,7 @@ int isDelimter(char m)
 
 char *cap_string(char *s)
 {
-	char *ptr = s;
+char *ptr = s;
 	int foundDelimit = 1;
 
 	while (*s)

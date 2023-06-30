@@ -2,7 +2,7 @@
 
 /**
  * leet - encodes a string into 1337
- * @c: string
+ * @m: string
  * Return: string that is encodes
 */
 
@@ -13,7 +13,7 @@ char *leet(char *m)
 	int value[] = {4, 3, 0, 7, 1};
 	unsigned int r;
 
-        while (*m)
+	while (*m)
 	{
 		for (r = 0; r < sizeof(key) / sizeof(char); r++)
 		{

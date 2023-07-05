@@ -11,7 +11,7 @@ void _puts_recursion(char *s)
 		printf("\n");
 	else
 	{
-		printf("*s");
+		printf('*s');
 		_puts_recursion(s + 1);
 	}
 }

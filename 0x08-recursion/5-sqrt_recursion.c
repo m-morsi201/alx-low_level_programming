@@ -5,7 +5,7 @@
  * @n: it is a input number.
  * Return:  the natural square root of a number.
 */
-
+int square(int n, int m);
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));

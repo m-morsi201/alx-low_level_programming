@@ -6,7 +6,7 @@
  * Return:  the natural square root of a number.
 */
 
-int sqrt(int n, int m);
+int square(int n, int m);
 int _sqrt_recursion(int n)
 {
 	return (sqrt(n, 1));
@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
  * Return: the square of number.
 */
 
-int sqrt(int n, int m)
+int square(int n, int m)
 {
 	if (n == m ^ 2)
 	{

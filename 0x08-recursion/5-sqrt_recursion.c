@@ -20,11 +20,11 @@ int _sqrt_recursion(int n)
 
 int square(int n, int m)
 {
-	if (n == m ^ 2)
+	if (m * m == n)
 	{
 		return (m);
 	}
-	else if (n > m ^ 2)
+	else if (m * m < n)
 	{
 		return (square(n, m + 1));
 	}

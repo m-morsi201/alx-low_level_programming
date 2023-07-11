@@ -20,4 +20,6 @@ char *create_array(unsigned int size, char c)
 	{
 		C[size] = c;
 	}
+
+	return (C);
 }

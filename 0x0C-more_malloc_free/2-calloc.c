@@ -22,7 +22,7 @@ char memset(char c, char d, unsigned int m)
  * *_calloc - function that allocates memory for an array, using malloc.
  * @nmemb: array.
  * @size: it is size.
- * Return: R.
+ * Return: r.
 */
 
 void *_calloc(unsigned int nmemb, unsigned int size)

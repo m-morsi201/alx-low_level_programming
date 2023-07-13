@@ -10,7 +10,7 @@
 
 char memset(char c, char d, unsigned int m)
 {
-	char p = c;
+	char *p = c;
 
 	while (m--)
 		*c++ = d;

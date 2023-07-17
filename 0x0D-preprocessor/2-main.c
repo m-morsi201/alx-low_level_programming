@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print name of file
+ * main - print name of the scoure file
  * Return: 0 
 */
 

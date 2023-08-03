@@ -31,5 +31,5 @@ int SQ(int n, int v)
 	{
 		return (SQ(n, v + 1));
 	}
-	return (-1)
+	return (-1);
 }

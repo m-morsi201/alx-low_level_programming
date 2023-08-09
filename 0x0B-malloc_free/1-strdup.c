@@ -36,7 +36,4 @@ char *_strdup(char *str)
 	}
 	dup[m] = '\0';
 	printf("%s\n", dup);
-	free(dup);
-
-	return (0);
 }

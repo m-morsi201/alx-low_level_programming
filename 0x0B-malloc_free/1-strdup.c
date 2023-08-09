@@ -35,7 +35,6 @@ char *_strdup(char *str)
 		dup[m] = str[m];
 	}
 	dup[m] = '\0';
-	printf("%s\n", dup);
 
-	return (0);
+	return (dup);
 }

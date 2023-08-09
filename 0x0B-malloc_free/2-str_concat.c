@@ -38,14 +38,12 @@ char *str_concat(char *s1, char *s2)
 
 	for (m = 0; s1[m]; m++)
 	{
-		con[m - 1] = s1[m - 1];
-		m++;
+		con[m - 1] = s1[m];
 	}
 
 	for (; s2[m]; m++)
 	{
-		con[m - 1] = s2[m - 1];
-		m++;
+		con[m - 1] = s2[m];
 	}
 
 	return (con);

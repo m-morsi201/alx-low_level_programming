@@ -14,12 +14,12 @@ int **alloc_grid(int width, int height)
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	G = calloc(height, sizeof(*G));
+	G = malloc(height * sizeof(*G));
 	if (G == NULL)
 		return (NULL);
 	for (m = 0; m < height; m++)
 	{
-		G[m] = calloc(width, sizeof(**G));
+		G[m] = malloc(width * sizeof(**G));
 		if (G[m] == NULL)
 		{
 			for (m--; m > 0; m--)

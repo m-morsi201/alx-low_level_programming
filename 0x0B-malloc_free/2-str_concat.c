@@ -15,12 +15,6 @@ char *str_concat(char *s1, char *s2)
 	r = 0;
 	b = 0;
 
-	if ((s1 == NULL) & (s2 == NULL))
-	{
-		char *i;
-		i = "";
-		return (i);
-	}
 	if (s1 == NULL)
 	{
 		s1 = "";

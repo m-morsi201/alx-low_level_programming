@@ -3,7 +3,7 @@
 /**
  * main - it is a func to print prog name.
  * @argc: it is int.
- * @argc: it is array.
+ * @argv: it is array.
  * Return: (0).
 */
 

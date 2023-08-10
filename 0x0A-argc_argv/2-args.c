@@ -11,9 +11,7 @@ int main(int argc, char **argv)
 {
 	int m;
 
-	m = 0;
-
-	for (m = 0; m < agrc; m++)
+	for (m = 0; m < argc; m++)
 	{
 		printf("%s\n", argv[m]);
 	}

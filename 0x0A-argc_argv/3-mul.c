@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - it is a function ot muliplies two numbers.
@@ -9,11 +10,15 @@
 
 int main(int argc, char **argv)
 {
+	char e[] = "Error";
+	int m;
+
 	if (argc < 3)
 	{
-		printf("%s\n," Error);
+		printf("%s\n", e);
 		return (1);
 	}
-	printf("%s\n", argv[1] * argv[2]);
+	m = atoi(argv[1]) * atoi(argv[2]);
+	printf("%i\n", m);
 	return (0);
 }

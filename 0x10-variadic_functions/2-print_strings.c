@@ -20,16 +20,15 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		separator = "";
 	}
 
-	if (ptr == NULL)
-	{
-		printf("(nil)");
-	}
-	else
-	{
 	va_start(argus, n);
 
 	for (r = 0; r < n; r++)
 	{
+		if (ptr == NULL)
+		{
+			printf("(nil)");
+			break;
+		}
 		printf("%s", ptr);
 		if (n == r + 1)
 		{
@@ -39,5 +38,4 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 	va_end(argus);
 	printf("\n");
-	}
 }

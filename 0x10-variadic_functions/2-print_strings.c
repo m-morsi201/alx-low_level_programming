@@ -24,7 +24,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		printf("(nil)");
 	}
-
+	else
+	{
 	va_start(argus, n);
 
 	for (r = 0; r < n; r++)
@@ -38,4 +39,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 	va_end(argus);
 	printf("\n");
+	}
 }

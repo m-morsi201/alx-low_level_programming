@@ -13,8 +13,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list argus;
 	char *ptr;
 
-	ptr = va_arg(argus, char *);
-
 	if (separator == NULL)
 	{
 		separator = "";
@@ -24,6 +22,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (r = 0; r < n; r++)
 	{
+		ptr = va_arg(argus, char *);
 		if (ptr == NULL)
 		{
 			printf("(nil)");

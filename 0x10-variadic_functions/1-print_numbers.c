@@ -22,6 +22,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (r = 0; r < n; r++)
 	{
 		printf("%d", va_arg(argusn, int));
+		if (n == i + 1)
+			break;
 		printf("%s", separator);
 	}
 	printf("\n");

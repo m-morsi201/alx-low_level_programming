@@ -9,23 +9,22 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned int f;
-	unsigned long int x, s;
+	unsigned int f, x, s;
 
 	f = 0;
-	x = (n ^ m);
-	s = 0x01;
 
-	while (s <= x)
+	while (!(n == 0 && m == 0))
 	{
-		if (s & x)
+		x = n & 1;
+		s = m & 1;
+		n = n >> 1;
+		m = m >> 1;
+
+		if (s != x)
 		{
 			f++;
 		}
-		else
-		{
-			s <<= 1;
-		}
+
 	}
 	return (f);
 }

@@ -17,7 +17,7 @@ void print_diagonal(int n)
 		{
 			for (c = 0; c < n; c++)
 			{
-				if (c == r
+				if (c == r)
 					_putchar('\\');
 				else if (c < r)
 					_putchar(' ');

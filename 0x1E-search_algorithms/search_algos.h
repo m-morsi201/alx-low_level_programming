@@ -7,5 +7,7 @@
 
 /* prototypes for Tasks */
 int linear_search(int *array, size_t size, int value);
+void print_array(int *array, int l, int r);
+int binary_search(int *array, size_t size, int value);
 
 #endif
